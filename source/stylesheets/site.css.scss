@@ -1,75 +1,11 @@
 
-@media (max-width: 375px) {
-
-   .home-container {
-     position: absolute;
-    left: 4rem;
-    bottom: 37rem;
-   }
-
-  .logo-container {
-    position: absolute;
-    top: 17rem;
-  }
-
-  .logo {
-    position: absolute;
-  }
-
-  .logo_amp {
-    font-size: 5.5rem;
-    position: absolute;
-    right: 24%;
-    top: -0.7rem;
-  }
-
-  .coder-nav {
-    position: absolute;
-    top: 20.5rem;
-    left: 16rem;
-  }
-
-  .coder-nav > a {
-    position: absolute;
-    min-width: 10rem;
-    right: 0rem;
-    bottom: -1rem;
-  }
-
-  .creative-nav {
-    position: absolute;
-    left: 11rem;
-    top: 15rem;
-  }
-
-  .creative-nav > a {
-    position: absolute;
-    min-width: 10rem;
-    top: -15%;
-    left: 71px;
-  }
-
-  footer, .social-media {
-    min-width: 100vw;
-  }
-
-  footer {
-    padding: 0 35%;
-    position: absolute;
-    bottom: -11rem;
-  }
-
-  footer > .social-media {
-    padding: 0 16%;
-  }
-
- }
-
 // main
 
-html {
-    margin:    0 auto;
-    max-width: 100vw;
+html, body {
+   max-height: 100%;
+   max-width: 100%;
+   margin: 0;
+   padding: 0;
 }
 
 body {
@@ -90,6 +26,11 @@ body {
   color: #FF715C;
   font-family: "Bodoni 72 Oldstyle";
   font-style: italic;
+}
+
+footer {
+  max-width: 100%;
+  margin: 0 auto;
 }
 
 a {
