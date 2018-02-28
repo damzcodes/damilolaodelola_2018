@@ -15,10 +15,6 @@
     top: 14rem;
   }
 
-  footer {
-    top: 34.5rem;
-  }
-
   .creative-nav {
     top: 15rem;
   }
@@ -39,9 +35,6 @@
     bottom: 12.5rem;
   }
 
-  footer {
-    bottom: 4rem;
-  }
 }
 
 /*  TABLET */
@@ -87,13 +80,6 @@
     min-width: 14rem;
   }
 
-  footer {
-    top: 43.5rem;
-  }
-
-  footer > .social-media {
-    bottom: 7.5rem;
-  }
 }
 
 @media (min-width: 1024px) {
@@ -136,14 +122,6 @@
   .creative-nav {
     left: 30rem;
     top: 19rem;
-  }
-
-  footer > .social-media {
-    bottom: 28rem;
-  }
-
-  footer > .social-media > div > a > img {
-    width: 1rem;
   }
 
 }
