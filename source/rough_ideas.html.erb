@@ -1,0 +1,41 @@
+---
+layout: "rough_ideas"
+pageable: true
+per_page: 10
+---
+<p class="col-md-6"> Rough Ideas is a collection of personal essays, photo essays, poems, stories, devotionals, basically a bunch of stuff I've made. </p>
+
+<% if paginate && num_pages > 1 %>
+  <p>Page <%= page_number %> of <%= num_pages %></p>
+
+  <% if prev_page %>
+    <p><%= link_to 'Previous page', prev_page %></p>
+  <% end %>
+<% end %>
+
+<div class="row">
+  <div class="col-sm-6">
+    <ul class="rough-ideas-list list-unstyled">
+
+      <% page_articles.each_with_index do |article, i| %>
+          <li>
+            <h2 class="h4"><%= link_to article.title, article, class: "article-link" %></h2>
+
+            <div class="">
+              <span class="text-muted date"><%= article.date.strftime('%d.%m.%Y') %></span>
+               <%# article.tags.each do |tag| %>
+                <!-- <span class="date"> #<%#=tag%></span> -->
+              <%# end %>
+            </div>
+            <%#= article.body %>
+          </li>
+      <% end %>
+    </ul>
+  </div>
+</div>
+
+<% if paginate %>
+  <% if next_page %>
+    <p><%= link_to 'Next page', next_page %></p>
+  <% end %>
+<% end %>

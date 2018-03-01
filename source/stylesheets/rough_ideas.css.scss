@@ -5,7 +5,19 @@
   font-size: 0.7rem;
 }
 
-p {
+body {
   font-family: 'Nunito', "Avenir", sans-serif;
   font-weight: 300;
+}
+
+.date {
+  font-size: 0.7rem;
+}
+
+.article-link {
+  color: #000;
+}
+
+.article-link:hover{
+  color: #00B378;
 }
