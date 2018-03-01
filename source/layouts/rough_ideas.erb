@@ -8,16 +8,22 @@
     <!-- Use the title from a page's frontmatter if it has one -->
     <title><%= current_page.data.title || "Damilola Odelola" %></title>
     <link href="stylesheets/normalise.css" rel="stylesheet" />
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
     <link href="stylesheets/general.css" rel="stylesheet" />
+    <link href="stylesheets/rough_ideas.css" rel="stylesheet" />
     <script src="javascripts/site.js"></script>
     <link href="https://fonts.googleapis.com/css?family=Nunito:300,400" rel="stylesheet">
   </head>
   <body>
-    <!-- <div class="logo-container">
-      <span class="logo_amp"> &amp; </span>
-      <h1 class="logo"> LOLA: <span class="pink">CREATIVE</span>  CODER </h1>
-    </div> -->
-    <%= yield %>
+    <div class="container" >
+      <div  class="row">
+        <header class="col-md-6">
+          <div class="nav"> LOLA: <a href="/"> HOME </a></div>
+          <a href="rough_ideas_index.html"><img src="images/rough_ideas_logo.svg" /></a>
+        </header>
+      </div>
+      <%= yield %>
+    </div>
     <footer>
      <div class="social-media">
        <div>
