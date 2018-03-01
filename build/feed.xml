@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>Rough Ideas</title>
+  <subtitle>Thoughts, ideas, etc about stuff</subtitle>
+  <id>http://blog.url.com/</id>
+  <link href="http://blog.url.com/"/>
+  <link href="http://blog.url.com/feed.xml" rel="self"/>
+  <updated>2018-03-01T03:28:00+00:00</updated>
+  <author>
+    <name>Damilola Odelola</name>
+  </author>
+  <entry>
+    <title>Returning To Me</title>
+    <link rel="alternate" href="http://blog.url.com/2018/03/01/returning_to_me.html"/>
+    <id>http://blog.url.com/2018/03/01/returning_to_me.html</id>
+    <published>2018-03-01T03:28:00+00:00</published>
+    <updated>2018-03-01T20:06:22+00:00</updated>
+    <author>
+      <name>Damilola Odelola</name>
+    </author>
+    <content type="html">&lt;div class="row"&gt;
+  &lt;div class="col-md-6 offset-md-3 col-sm-12" &gt;
+  &lt;h1&gt; Returning To Me &lt;/h1&gt;
+    &lt;p class="note"&gt; Names in this piece have been changed for no reason other than it felt right to. &lt;/p&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
+
+&lt;div class="row"&gt;
+  &lt;div class="col-md-6 offset-md-3 col-sm-12" &gt;
+    &lt;p&gt;My uncle died three weeks ago and it rocked me harder than it should. We weren't close, spoke a couple of times a year but it's always surprising when someone you've never pictured with death slumps into her arms without a fight. The news came at the back-end of a depressive episode, the abrupt end of two cherished friendships, the slow drifting of another &amp; what I thought was the end of the crumbling of blackgirl.tech (lol, it was just the beginning).&lt;/p&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
+&lt;div class="row"&gt;
+  &lt;div class="col-md-6 offset-md-3 col-sm-12" &gt;
+    &lt;img src="../../../images/posts/me_hands-8d2601c9.jpg" class="post-image" alt="Me hands" /&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
+&lt;br&gt;
+&lt;div class="row"&gt;
+  &lt;div class="col-md-6 offset-md-3 col-sm-12" &gt;
+    &lt;p&gt;In December, I went to New York and met two incredibly talented men, Tosin &amp; Kayode, both creatives doing work in the visual arts realm (Tosin's a photographer, Kayode's a documentary filmmaker). They took me around New York &amp; schooled me on MTA (Londoners, we're blessed). We talked passionately about everything. Kayode letting us know that Lupe &amp; Kendrick are two trash iterations of the same person, Tosin asking about the role (Black) women play in (Black) men's lives, but everyone always coming back to creativity - why we create, who we do it for, what it does for us. These talks weren't unlike any I'd had before except for the fact that they were had in the seductiveness and lure of New York.&lt;/p&gt;
+
+    &lt;p&gt;I left feeling like I had spent the whole of 2017 wearing a mask, like a large part of me had been hidden and I didn't even realise.&lt;/p&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
+&lt;div class="row"&gt;
+  &lt;div class="col-md-6 offset-md-3 col-sm-12" &gt;
+    &lt;img src="../../../images/posts/me_blur-7b89794c.jpg" class="post-image" alt="Me blur" /&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
+&lt;br&gt;
+&lt;div class="row"&gt;
+  &lt;div class="col-md-6 offset-md-3 col-sm-12" &gt;
+    &lt;p&gt;I got into tech because I wanted to write. Tech was supposed to be my bread while writing was to be my water but entering an industry where you feel like you have to fight to be, it's easy to forget to drink, you know? I decided to go back to what I love, and more importantly, who I am. Writing has been somewhat of a burden for me, I'm thinking too hard about the words, so I'm finding other ways to create and tell stories. Photography has been a light during a harsh, dark, winter. It feels warm, better still, it feels good. So that's what I'm doing now. I want to get back into making film and &amp; I've randomly picked up embroidery, kind of.&lt;/p&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
+&lt;div class="row"&gt;
+  &lt;div class="col-md-6 offset-md-3 col-sm-12" &gt;
+    &lt;img src="../../../images/posts/me_mid-0fc73f92.jpg" class="post-image" alt="Me mid" /&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
+&lt;br&gt;
+&lt;div class="row"&gt;
+  &lt;div class="col-md-6 offset-md-3 col-sm-12" &gt;
+    &lt;p&gt;All that to say, I won't be taking on any tech-related speaking gigs/workshops/etc outisde of stuff I'm paid to do or blackgirl.tech. I also don't do freelance web design/development.&lt;/p&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
+</content>
+  </entry>
+</feed>
