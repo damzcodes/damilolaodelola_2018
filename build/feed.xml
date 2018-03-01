@@ -11,8 +11,8 @@
   </author>
   <entry>
     <title>Returning To Me</title>
-    <link rel="alternate" href="http://blog.url.com/2018/03/01/returning_to_me.html"/>
-    <id>http://blog.url.com/2018/03/01/returning_to_me.html</id>
+    <link rel="alternate" href="http://blog.url.com/2018/03/01/returning_to_me/"/>
+    <id>http://blog.url.com/2018/03/01/returning_to_me/</id>
     <published>2018-03-01T03:28:00+00:00</published>
     <updated>2018-03-01T20:06:22+00:00</updated>
     <author>
@@ -32,7 +32,7 @@
 &lt;/div&gt;
 &lt;div class="row"&gt;
   &lt;div class="col-md-6 offset-md-3 col-sm-12" &gt;
-    &lt;img src="../../../images/posts/me_hands-8d2601c9.jpg" class="post-image" alt="Me hands" /&gt;
+    &lt;img src="../../../../images/posts/me_hands-8d2601c9.jpg" class="post-image" alt="Me hands" /&gt;
   &lt;/div&gt;
 &lt;/div&gt;
 &lt;br&gt;
@@ -45,7 +45,7 @@
 &lt;/div&gt;
 &lt;div class="row"&gt;
   &lt;div class="col-md-6 offset-md-3 col-sm-12" &gt;
-    &lt;img src="../../../images/posts/me_blur-7b89794c.jpg" class="post-image" alt="Me blur" /&gt;
+    &lt;img src="../../../../images/posts/me_blur-7b89794c.jpg" class="post-image" alt="Me blur" /&gt;
   &lt;/div&gt;
 &lt;/div&gt;
 &lt;br&gt;
@@ -56,7 +56,7 @@
 &lt;/div&gt;
 &lt;div class="row"&gt;
   &lt;div class="col-md-6 offset-md-3 col-sm-12" &gt;
-    &lt;img src="../../../images/posts/me_mid-0fc73f92.jpg" class="post-image" alt="Me mid" /&gt;
+    &lt;img src="../../../../images/posts/me_mid-0fc73f92.jpg" class="post-image" alt="Me mid" /&gt;
   &lt;/div&gt;
 &lt;/div&gt;
 &lt;br&gt;
