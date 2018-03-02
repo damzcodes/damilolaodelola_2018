@@ -18,6 +18,6 @@ body {
   color: #000;
 }
 
-.article-link:hover{
-  color: #00B378;
+.article-link:hover, .article-link:visited, .article-link:focus {
+  color: #DD2476;
 }

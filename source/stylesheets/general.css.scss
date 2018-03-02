@@ -60,7 +60,8 @@ a {
   text-decoration: none;
 
   &:focus,
-  &:hover {
+  &:hover, &:visited {
+    color: #DD2476;
     text-decoration: underline;
   }
 }
