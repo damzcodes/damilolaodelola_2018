@@ -17,7 +17,7 @@
 .logo_amp {
   color: #9B9B9B;
   opacity: 0.5;
-  font-family: "Bodoni 72 Oldstyle";
+  font-family: "Bodoni 72 Oldstyle", Palatino, serif;
   font-style: italic;
   font-size: 4.5rem;
   position: absolute;
@@ -38,6 +38,10 @@
 
 .copyright {
   transform: rotate(-90deg);
+  -webkit-transform: rotate(-90deg);
+  -moz-transform: rotate(-90deg);
+  -ms-transform: rotate(-90deg);
+  -o-transform: rotate(-90deg);
   position: relative;
 }
 
