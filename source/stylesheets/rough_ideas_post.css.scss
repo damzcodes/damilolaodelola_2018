@@ -23,3 +23,9 @@ footer {
 }
 /* 2 columns */
 // .grid-item--width2 { width: 40%; }
+.gigante {
+  width: 70%;
+  // height: 180px;
+  // background: #F90;
+  z-index: 2; /* keep it above other items */
+}
