@@ -1,25 +1,33 @@
 ---
+layout: rough_ideas
 pageable: true
 per_page: 12
 ---
-<h1>Articles tagged '<%#= tagname %>'</h1>
+<h1>Articles tagged '<%= tagname %>'</h1>
 
-<%# if paginate && num_pages > 1 %>
-  <p>Page <%#= page_number %> of <%#= num_pages %></p>
+<% if paginate && num_pages > 1 %>
+  <p>Page <%= page_number %> of <%= num_pages %></p>
 
-  <%# if prev_page %>
-    <p><%#= link_to 'Previous page', prev_page %></p>
-  <%# end %>
-<%# end %>
+  <% if prev_page %>
+    <p><%= link_to 'Previous page', prev_page %></p>
+  <% end %>
+<% end %>
 
-<ul>
-  <%# page_articles.each_with_index do |article, i| %>
-    <li><%#= link_to article.title, article %> <span><%#= article.date.strftime('%b %e') %></span></li>
-  <%# end %>
-</ul>
+<div class="row">
 
-<%# if paginate %>
-  <%# if next_page %>
-    <p><%#= link_to 'Next page', next_page %></p>
-  <%# end %>
-<%# end %>
+      <% page_articles.each_with_index do |article, i| %>
+          <div class="col">
+            <h2 class="h4"><%= link_to article.title, article, class: "article-link" %></h2>
+            <div class="">
+              <span class="text-muted date"><%= article.date.strftime('%d.%m.%Y') %></span>
+            </div>
+          </div>
+      <% end %>
+
+</div>
+
+<% if paginate %>
+  <% if next_page %>
+    <p><%= link_to 'Next page', next_page %></p>
+  <% end %>
+<% end %>

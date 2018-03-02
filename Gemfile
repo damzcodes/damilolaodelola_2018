@@ -9,3 +9,4 @@ gem "builder", "~> 3.0"
 gem 'rake'
 gem 'puma'
 gem 'rack-contrib'
+gem 'pry'

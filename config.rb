@@ -49,5 +49,8 @@ configure :build do
 end
 
 activate :blog do |blog|
-  # set options on blog
+  # blog.prefix = "roughideas"
+  blog.permalink = "{title}.html"
+  blog.name = "rough ideas"
+  blog.tag_template = "tag.html"
 end
